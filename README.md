@@ -1,2 +1,2 @@
-# employee-delete-service
-Сервис для удаления сущности employee  в базе данных
+# create-employee-service
+create-employee-service gets http body of entity Employee and save it in database

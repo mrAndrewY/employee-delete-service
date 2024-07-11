@@ -5,7 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import shop.household.createemployeeservice.entity.Employee;
 
-import javax.validation.constraints.NotNull;
 import java.util.Optional;
 
 @Repository

@@ -18,7 +18,7 @@ import static shop.household.createemployeeservice.error.ExceptionCode.ENTITY_NO
 public class EmployeeServiceImpl implements EmployeeService {
     private final EmployeeRepository employeeRepository;
 
-
+    @Override
     @Transactional
     public void deleteEmployeeById(Long id) throws ServiceException {
         employeeRepository

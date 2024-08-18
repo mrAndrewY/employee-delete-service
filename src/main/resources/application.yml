@@ -1,9 +1,8 @@
 spring:
   application:
-    name: create-employee-service
+    name: employee-delete-service
   datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/houshold_appliances
-    username: andrew
-    password: hello
-endpoint: /v1/delete/employee
+    url: jdbc:postgresql://${DB_HOST}:5432/${DB_ENDPOINT}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+endpoint: ${ENDPOINT}

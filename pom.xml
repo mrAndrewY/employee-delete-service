@@ -15,6 +15,7 @@
 	<description>create-employee-service</description>
 	<properties>
 		<java.version>17</java.version>
+		<skipTests>true</skipTests>
 		<create.employee.service.api>1.0.0-SNAPSHOT</create.employee.service.api>
 		<postgres.driver.version>42.7.3</postgres.driver.version>
 		<lombok.version>1.18.32</lombok.version>
@@ -47,6 +48,7 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>${postgres.driver.version}</version>
+			<scope>runtime</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
